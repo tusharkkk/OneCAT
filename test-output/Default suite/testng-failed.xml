@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.onecat.qa.testcases.CartSubmissionTest">
+      <class name="com.onecat.qa.testcases.AddThirdPartySupplierTest">
         <methods>
-          <include name="CreateShoppingCartTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="Create_3P_supplier"/>
         </methods>
-      </class> <!-- com.onecat.qa.testcases.CartSubmissionTest -->
+      </class> <!-- com.onecat.qa.testcases.AddThirdPartySupplierTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -6,15 +6,13 @@
   </listeners>
   <test thread-count="5" name="OneCAT Application Test Cases(failed)">
     <classes>
-      <class name="com.onecat.qa.testcases.HomePageTest">
+      <class name="com.onecat.qa.testcases.CartSubmissionTest">
         <methods>
-          <include name="clickOnImcsTab_Test"/>
-          <include name="OneCatLogoImageTest"/>
+          <include name="CreateShoppingCartTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="HomePageTitleTest"/>
         </methods>
-      </class> <!-- com.onecat.qa.testcases.HomePageTest -->
+      </class> <!-- com.onecat.qa.testcases.CartSubmissionTest -->
     </classes>
   </test> <!-- OneCAT Application Test Cases(failed) -->
 </suite> <!-- Failed suite [OneCAT Automation TestSuite] -->

@@ -32,7 +32,6 @@ public class TestBase {
 	
 public static WebDriver driver;
 public static Properties prop;
-	
 public TestBase() {
 	
 	
@@ -69,7 +68,7 @@ public static void initialization() throws InterruptedException {
 	driver=new ChromeDriver();
 		
 	
-	((HasAuthentication)driver).register(UsernameAndPassword.of("TKhade@slb.com", "Selenium@123"));
+	((HasAuthentication)driver).register(UsernameAndPassword.of("TKhade@slb.com", "Kolhapur@143"));
 	
 		//((HasAuthentication)driver).register(UsernameAndPassword.of(prop.getProperty("username", "password"), "chrome"));
 		

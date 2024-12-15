@@ -9,7 +9,7 @@
   <test name="OneCAT Application Test Cases">
       
       <classes>
-      <class name="com.onecat.qa.testcases.HomePageTest"/>
+      <class name="com.onecat.qa.testcases.CartSubmissionTest"/>
      
    
       

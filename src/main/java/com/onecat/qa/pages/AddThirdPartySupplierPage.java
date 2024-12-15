@@ -14,8 +14,11 @@ public class AddThirdPartySupplierPage  extends TestBase{
 	@FindBy(xpath="//body/div[@id='wrapper']/div[1]/form[1]/p[1]/input[1]")
 	WebElement Supplier_name;
 	
-	@FindBy(xpath="//body/div[@id='wrapper']/div[1]/form[1]/p[2]/input[1]")
+	@FindBy(xpath="//*[@id=\"wrapper\"]/div/form/p[5]/input")
 	WebElement SWPS_Supplier_code;
+	
+	////*[@id="wrapper"]/div/form/p[5]/input
+	///html/body/div/div/form/p[5]/input
 	
 	@FindBy(xpath="//body/div[@id='wrapper']/div[1]/form[1]/p[3]/input[1]")
 	WebElement SWPS_supplier_id;
@@ -41,20 +44,12 @@ public class AddThirdPartySupplierPage  extends TestBase{
 		SWPS_supplier_id.sendKeys("5366t2");
 		IMCS_code.sendKeys("BCC");
 		submit_button.click();
-		
-		
 	}
 		
 	public String Supplier_added_Messagee() {
 		return Supplier_added_Message.getText();
-		
-		
+			
 	}
-		
-		
-		
-		
-		
 	}
 	
 
